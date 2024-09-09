@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C800FFAE"
+    tools:context=".Subactivity3">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="천안실내테니스장"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_2"
+        android:layout_gravity="center"/>
+
+    <com.naver.maps.map.MapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="-위치 : 천안시 서북구 번영로 208(백석동, 종합운동장) 실내테니스장 \n운영시간 \n 06시-24시\n휴장일: 매월 첫째 주 월요일,설날,추석,창립기념일 \n이용안내사항
+\n-시설물 이용 후 주변의 쓰레기, 오물 등은 깨끗이 수거하여 지정된 곳에 버려주시기 바랍니다.\n-코트 내에서는 흡연, 음주, 애완동물 출입을 금지하며 껌을 씹는 행위는 삼가 주시기 바랍니다\n-박스볼(10개이상 금지), 볼 머신, 개인강습 금지입니다.
+\n이용요금 \n평일 주간: 20000원 야간: 25000원 \n토,일,공휴일 주간: 25000원 야간: 30000원 \n1면 2시간기준"/>
+
+
+</LinearLayout>

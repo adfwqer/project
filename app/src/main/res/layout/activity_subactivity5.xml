@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C800FFAE"
+    tools:context=".Subactivity5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="천안시종합운동장 볼링장"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/img_4" />
+
+    <com.naver.maps.map.MapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="-위치 : 천안시 서북구 번영로 208 \n이용시간 \n화~일 09:00 ~ 23:00 (국,공휴일은 13:00 ~ 21:00) \n휴장일: 매주 월요일, 1월1일,명절 당일(설,추석)\n주의사항
+\n-음주자는 레인배정을 절대 금합니다.\n-호명 당시 볼링장 안에 계신 인원만 이용가능 합니다.\n-대기자 작성 시 한 명단 당 한 개 레인만 배정가능 합니다.\n이용요금 \n2500원\n*1인당 1게임 기준"/>
+
+
+</LinearLayout>

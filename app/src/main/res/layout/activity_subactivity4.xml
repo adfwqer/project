@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C800FFAE"
+    tools:context=".Subactivity4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="천안시민체육공원 족구장"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_3"
+        android:layout_gravity="center"/>
+
+    <com.naver.maps.map.MapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="-위치 : 충남 천안시 서북구 불당동 218-5 \n이용시간 \n 상시개방, 야간조명(해 지는시각 ~ 22:00) \n주의사항
+\n-전용화 또는 운동화 착용\n-경기장 내 음식물 (물,음료수 제외)및 인화물질 반입/사용금지\n-족구 외 이용금지\n이용요금: 무료"/>
+
+
+</LinearLayout>

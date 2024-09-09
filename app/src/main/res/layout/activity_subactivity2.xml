@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C800FFAE"
+    tools:context=".Subactivity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="천안풋살장 으뜸풋살"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_1"
+        android:layout_gravity="center"/>
+
+    <com.naver.maps.map.MapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="-위치 : 천안시 서북구 4산단7로 16-25 \n이용시간 \n 24시간 영업\n \n안내사항
+\n2개의 정규 규격을 갖춘 구장으로 첨단 엘이디 조명으로 밝고 쾌적한 상태에서 즐길 수있습니다 각 독립된 락커룸을 편하게 사용하실 수있습니다 물론 냉,온 시설 완비입니다 깨끗한 화장실과 언제나 샤워를 할 수있게 온수가 공급됩니다\n\n이용요금\n주간 08시-17시 : 60000원\n야간17사-07시 : 60000원"/>
+
+
+</LinearLayout>
